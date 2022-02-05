@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func showSearchViewButtonTapped(_ sender: Any) {
+        let vc = SearchViewBuilder.build()
+        self.navigationController?.show(vc, sender: nil)
+    }
 }
 
