@@ -80,7 +80,6 @@
 				79A278C829C54BCAB1B5BB27 /* Pods-SearchRepoDemo.debug.xcconfig */,
 				9E5BD0376C3A12826CF193CD /* Pods-SearchRepoDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
