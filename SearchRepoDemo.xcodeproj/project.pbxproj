@@ -14,7 +14,33 @@
 		3E59C2C427AE41C8003FA72C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E59C2C227AE41C8003FA72C /* Main.storyboard */; };
 		3E59C2C627AE41CA003FA72C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E59C2C527AE41CA003FA72C /* Assets.xcassets */; };
 		3E59C2C927AE41CA003FA72C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E59C2C727AE41CA003FA72C /* LaunchScreen.storyboard */; };
+		3EEE1C6127AE4AC40034B7A5 /* SearchViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE1C6027AE4AC40034B7A5 /* SearchViewBuilder.swift */; };
+		3EEE1C6327AE4AD60034B7A5 /* SearchViewInteractorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE1C6227AE4AD60034B7A5 /* SearchViewInteractorType.swift */; };
+		3EEE1C6527AE4ADB0034B7A5 /* SearchViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE1C6427AE4ADB0034B7A5 /* SearchViewInteractor.swift */; };
+		3EEE1C6927AE4B170034B7A5 /* SearchViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE1C6827AE4B170034B7A5 /* SearchViewRouter.swift */; };
+		3EEE1C6B27AE4B330034B7A5 /* SearchViewRouterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE1C6A27AE4B330034B7A5 /* SearchViewRouterType.swift */; };
+		3EEE1C6E27AE4B730034B7A5 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE1C6D27AE4B730034B7A5 /* RequestManager.swift */; };
+		3EEE1C7027AE4B9A0034B7A5 /* SearchViewPresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE1C6F27AE4B9A0034B7A5 /* SearchViewPresenterType.swift */; };
+		3EEE1C7227AE4B9D0034B7A5 /* SearchViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE1C7127AE4B9D0034B7A5 /* SearchViewPresenter.swift */; };
+		3EEE1C7427AE4BF50034B7A5 /* SearchResultListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE1C7327AE4BF50034B7A5 /* SearchResultListModel.swift */; };
+		3EEE1C7627AE4C000034B7A5 /* SearchResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE1C7527AE4C000034B7A5 /* SearchResultModel.swift */; };
+		3EEE1C7827AE4CF50034B7A5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE1C7727AE4CF50034B7A5 /* Config.swift */; };
+		3EEE1C7A27AE4E170034B7A5 /* SearchViewResultTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE1C7927AE4E170034B7A5 /* SearchViewResultTableViewDataSource.swift */; };
+		3EEE1C7D27AE4E7C0034B7A5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE1C7B27AE4E7C0034B7A5 /* SearchViewController.swift */; };
+		3EEE1C7E27AE4E7C0034B7A5 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EEE1C7C27AE4E7C0034B7A5 /* SearchViewController.xib */; };
+		3EEE1CAF27AE65A40034B7A5 /* SearchViewInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE1CAE27AE65A40034B7A5 /* SearchViewInteractorTest.swift */; };
+		3EEE1CB127AE65E70034B7A5 /* SearchViewPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE1CB027AE65E70034B7A5 /* SearchViewPresenterTest.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EEE1CA727AE65320034B7A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E59C2B127AE41C8003FA72C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E59C2B827AE41C8003FA72C;
+			remoteInfo = SearchRepoDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0BDA4DECAFDE4BF86426DE86 /* Pods_SearchRepoDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchRepoDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +52,23 @@
 		3E59C2C527AE41CA003FA72C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E59C2C827AE41CA003FA72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E59C2CA27AE41CA003FA72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EEE1C6027AE4AC40034B7A5 /* SearchViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewBuilder.swift; sourceTree = "<group>"; };
+		3EEE1C6227AE4AD60034B7A5 /* SearchViewInteractorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewInteractorType.swift; sourceTree = "<group>"; };
+		3EEE1C6427AE4ADB0034B7A5 /* SearchViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewInteractor.swift; sourceTree = "<group>"; };
+		3EEE1C6827AE4B170034B7A5 /* SearchViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewRouter.swift; sourceTree = "<group>"; };
+		3EEE1C6A27AE4B330034B7A5 /* SearchViewRouterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewRouterType.swift; sourceTree = "<group>"; };
+		3EEE1C6D27AE4B730034B7A5 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		3EEE1C6F27AE4B9A0034B7A5 /* SearchViewPresenterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewPresenterType.swift; sourceTree = "<group>"; };
+		3EEE1C7127AE4B9D0034B7A5 /* SearchViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewPresenter.swift; sourceTree = "<group>"; };
+		3EEE1C7327AE4BF50034B7A5 /* SearchResultListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultListModel.swift; sourceTree = "<group>"; };
+		3EEE1C7527AE4C000034B7A5 /* SearchResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultModel.swift; sourceTree = "<group>"; };
+		3EEE1C7727AE4CF50034B7A5 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		3EEE1C7927AE4E170034B7A5 /* SearchViewResultTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewResultTableViewDataSource.swift; sourceTree = "<group>"; };
+		3EEE1C7B27AE4E7C0034B7A5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3EEE1C7C27AE4E7C0034B7A5 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		3EEE1CA327AE65320034B7A5 /* SearchRepoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchRepoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EEE1CAE27AE65A40034B7A5 /* SearchViewInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewInteractorTest.swift; sourceTree = "<group>"; };
+		3EEE1CB027AE65E70034B7A5 /* SearchViewPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewPresenterTest.swift; sourceTree = "<group>"; };
 		79A278C829C54BCAB1B5BB27 /* Pods-SearchRepoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchRepoDemo.debug.xcconfig"; path = "Target Support Files/Pods-SearchRepoDemo/Pods-SearchRepoDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9E5BD0376C3A12826CF193CD /* Pods-SearchRepoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchRepoDemo.release.xcconfig"; path = "Target Support Files/Pods-SearchRepoDemo/Pods-SearchRepoDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,6 +82,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3EEE1CA027AE65320034B7A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -46,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				3E59C2BB27AE41C8003FA72C /* SearchRepoDemo */,
+				3EEE1CA427AE65320034B7A5 /* SearchRepoDemoTests */,
 				3E59C2BA27AE41C8003FA72C /* Products */,
 				A00F6C2E6E4FE1B4547472E1 /* Pods */,
 				F42C017F63D60BF8A98A767E /* Frameworks */,
@@ -56,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				3E59C2B927AE41C8003FA72C /* SearchRepoDemo.app */,
+				3EEE1CA327AE65320034B7A5 /* SearchRepoDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +115,7 @@
 		3E59C2BB27AE41C8003FA72C /* SearchRepoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3EF63C4927AE49F600122B08 /* Search */,
 				3E59C2BC27AE41C8003FA72C /* AppDelegate.swift */,
 				3E59C2BE27AE41C8003FA72C /* SceneDelegate.swift */,
 				3E59C2C027AE41C8003FA72C /* ViewController.swift */,
@@ -72,6 +125,92 @@
 				3E59C2CA27AE41CA003FA72C /* Info.plist */,
 			);
 			path = SearchRepoDemo;
+			sourceTree = "<group>";
+		};
+		3EEE1C5A27AE4A310034B7A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3EEE1C7B27AE4E7C0034B7A5 /* SearchViewController.swift */,
+				3EEE1C7C27AE4E7C0034B7A5 /* SearchViewController.xib */,
+				3EEE1C7927AE4E170034B7A5 /* SearchViewResultTableViewDataSource.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3EEE1C5B27AE4A3C0034B7A5 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				3EEE1C6027AE4AC40034B7A5 /* SearchViewBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		3EEE1C5C27AE4A450034B7A5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3EEE1C6227AE4AD60034B7A5 /* SearchViewInteractorType.swift */,
+				3EEE1C6427AE4ADB0034B7A5 /* SearchViewInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3EEE1C5D27AE4A520034B7A5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3EEE1C6F27AE4B9A0034B7A5 /* SearchViewPresenterType.swift */,
+				3EEE1C7127AE4B9D0034B7A5 /* SearchViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3EEE1C5E27AE4A8E0034B7A5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3EEE1C6A27AE4B330034B7A5 /* SearchViewRouterType.swift */,
+				3EEE1C6827AE4B170034B7A5 /* SearchViewRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3EEE1C5F27AE4AA30034B7A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3EEE1C7327AE4BF50034B7A5 /* SearchResultListModel.swift */,
+				3EEE1C7527AE4C000034B7A5 /* SearchResultModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3EEE1C6C27AE4B5C0034B7A5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3EEE1C6D27AE4B730034B7A5 /* RequestManager.swift */,
+				3EEE1C7727AE4CF50034B7A5 /* Config.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3EEE1CA427AE65320034B7A5 /* SearchRepoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EEE1CAE27AE65A40034B7A5 /* SearchViewInteractorTest.swift */,
+				3EEE1CB027AE65E70034B7A5 /* SearchViewPresenterTest.swift */,
+			);
+			path = SearchRepoDemoTests;
+			sourceTree = "<group>";
+		};
+		3EF63C4927AE49F600122B08 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				3EEE1C5B27AE4A3C0034B7A5 /* Builder */,
+				3EEE1C5A27AE4A310034B7A5 /* View */,
+				3EEE1C5C27AE4A450034B7A5 /* Interactor */,
+				3EEE1C5D27AE4A520034B7A5 /* Presenter */,
+				3EEE1C5F27AE4AA30034B7A5 /* Model */,
+				3EEE1C5E27AE4A8E0034B7A5 /* Router */,
+				3EEE1C6C27AE4B5C0034B7A5 /* Helper */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		A00F6C2E6E4FE1B4547472E1 /* Pods */ = {
@@ -113,6 +252,24 @@
 			productReference = 3E59C2B927AE41C8003FA72C /* SearchRepoDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3EEE1CA227AE65320034B7A5 /* SearchRepoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EEE1CA927AE65320034B7A5 /* Build configuration list for PBXNativeTarget "SearchRepoDemoTests" */;
+			buildPhases = (
+				3EEE1C9F27AE65320034B7A5 /* Sources */,
+				3EEE1CA027AE65320034B7A5 /* Frameworks */,
+				3EEE1CA127AE65320034B7A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EEE1CA827AE65320034B7A5 /* PBXTargetDependency */,
+			);
+			name = SearchRepoDemoTests;
+			productName = SearchRepoDemoTests;
+			productReference = 3EEE1CA327AE65320034B7A5 /* SearchRepoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -125,6 +282,11 @@
 				TargetAttributes = {
 					3E59C2B827AE41C8003FA72C = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					3EEE1CA227AE65320034B7A5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+						TestTargetID = 3E59C2B827AE41C8003FA72C;
 					};
 				};
 			};
@@ -142,6 +304,7 @@
 			projectRoot = "";
 			targets = (
 				3E59C2B827AE41C8003FA72C /* SearchRepoDemo */,
+				3EEE1CA227AE65320034B7A5 /* SearchRepoDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -153,7 +316,15 @@
 			files = (
 				3E59C2C927AE41CA003FA72C /* LaunchScreen.storyboard in Resources */,
 				3E59C2C627AE41CA003FA72C /* Assets.xcassets in Resources */,
+				3EEE1C7E27AE4E7C0034B7A5 /* SearchViewController.xib in Resources */,
 				3E59C2C427AE41C8003FA72C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EEE1CA127AE65320034B7A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,12 +378,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E59C2C127AE41C8003FA72C /* ViewController.swift in Sources */,
+				3EEE1C7227AE4B9D0034B7A5 /* SearchViewPresenter.swift in Sources */,
+				3EEE1C7A27AE4E170034B7A5 /* SearchViewResultTableViewDataSource.swift in Sources */,
+				3EEE1C7827AE4CF50034B7A5 /* Config.swift in Sources */,
+				3EEE1C7427AE4BF50034B7A5 /* SearchResultListModel.swift in Sources */,
 				3E59C2BD27AE41C8003FA72C /* AppDelegate.swift in Sources */,
+				3EEE1C6927AE4B170034B7A5 /* SearchViewRouter.swift in Sources */,
+				3EEE1C7027AE4B9A0034B7A5 /* SearchViewPresenterType.swift in Sources */,
+				3EEE1C6127AE4AC40034B7A5 /* SearchViewBuilder.swift in Sources */,
+				3EEE1C6E27AE4B730034B7A5 /* RequestManager.swift in Sources */,
+				3EEE1C7D27AE4E7C0034B7A5 /* SearchViewController.swift in Sources */,
+				3EEE1C6527AE4ADB0034B7A5 /* SearchViewInteractor.swift in Sources */,
+				3EEE1C7627AE4C000034B7A5 /* SearchResultModel.swift in Sources */,
+				3EEE1C6327AE4AD60034B7A5 /* SearchViewInteractorType.swift in Sources */,
+				3EEE1C6B27AE4B330034B7A5 /* SearchViewRouterType.swift in Sources */,
 				3E59C2BF27AE41C8003FA72C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3EEE1C9F27AE65320034B7A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEE1CAF27AE65A40034B7A5 /* SearchViewInteractorTest.swift in Sources */,
+				3EEE1CB127AE65E70034B7A5 /* SearchViewPresenterTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EEE1CA827AE65320034B7A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E59C2B827AE41C8003FA72C /* SearchRepoDemo */;
+			targetProxy = 3EEE1CA727AE65320034B7A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3E59C2C227AE41C8003FA72C /* Main.storyboard */ = {
@@ -408,6 +609,57 @@
 			};
 			name = Release;
 		};
+		3EEE1CAA27AE65320034B7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5A65PSL5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongwang.SearchRepoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchRepoDemo.app/SearchRepoDemo";
+			};
+			name = Debug;
+		};
+		3EEE1CAB27AE65320034B7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5A65PSL5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongwang.SearchRepoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchRepoDemo.app/SearchRepoDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -425,6 +677,15 @@
 			buildConfigurations = (
 				3E59C2CE27AE41CA003FA72C /* Debug */,
 				3E59C2CF27AE41CA003FA72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EEE1CA927AE65320034B7A5 /* Build configuration list for PBXNativeTarget "SearchRepoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EEE1CAA27AE65320034B7A5 /* Debug */,
+				3EEE1CAB27AE65320034B7A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
